@@ -29,8 +29,7 @@ let navigate = useNavigate()
             setUserError('')
 
         }, 3000);
-        console.log(user.password);
-        console.log(user.cPassword);
+       
     }else{
 
    
