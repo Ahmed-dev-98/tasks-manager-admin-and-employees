@@ -2,7 +2,7 @@
   "name": "todo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Ahmed-dev-98.github.io/todo-task-front-end",
+  "homepage": "http://Ahmed-dev-98.github.io/todo-task-front-end/login",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

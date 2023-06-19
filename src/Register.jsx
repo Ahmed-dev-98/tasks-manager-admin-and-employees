@@ -150,7 +150,7 @@ let navigate = useNavigate()
             <input
                 onChange={getUserData}
                 placeholder='  confirm your password'
-                id="confirm-password"
+                id="cPassword"
                 name="cPassword"
                 type="password"
                 autoComplete="current"
