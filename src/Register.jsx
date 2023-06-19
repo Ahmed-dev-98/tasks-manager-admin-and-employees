@@ -29,6 +29,8 @@ let navigate = useNavigate()
             setUserError('')
 
         }, 3000);
+        console.log(user.password);
+        console.log(user.cPassword);
     }else{
 
    
@@ -149,7 +151,7 @@ let navigate = useNavigate()
                 onChange={getUserData}
                 placeholder='  confirm your password'
                 id="confirm-password"
-                name="confirm-password"
+                name="cPassword"
                 type="password"
                 autoComplete="current"
                 required

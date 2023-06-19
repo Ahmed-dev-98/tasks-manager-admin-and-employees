@@ -164,10 +164,12 @@ function Users() {
 
     const addTask = async (e) => {
         e.preventDefault(e)
+        console.log(task.content);
         if (task.content === "") {
         return   window.alert('invalid data type')
             
-        } else {
+    } else {
+            task.content = ""
             task.employ = userID
             let { data } = await axios.post('https://todo-task-iti.onrender.com/api/v1/todo', task)
             if(data.message === "success") {
