@@ -140,7 +140,7 @@ let navigate = useNavigate()
     </div>
     <div>
         <div className="flex items-center justify-between">
-            <label htmlFor="confirm-password" className="block text-sm font-medium leading-6 text-white">
+            <label htmlFor="cPassword" className="block text-sm font-medium leading-6 text-white">
                 confirm password
             </label>
 
